@@ -25,9 +25,12 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	// implementation("org.springframework.ai:spring-ai-starter-model-anthropic")
 	// implementation("org.springframework.ai:spring-ai-starter-model-deepseek")
-	// implementation("org.springframework.ai:spring-ai-starter-model-google-genai")
-	implementation("org.springframework.ai:spring-ai-starter-model-openai")
+	implementation("org.springframework.ai:spring-ai-starter-model-google-genai")
+	// implementation("org.springframework.ai:spring-ai-starter-model-openai")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	// Source: https://mvnrepository.com/artifact/org.springframework.ai/spring-ai-ollama
+	implementation("org.springframework.ai:spring-ai-ollama:2.0.0-M1")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
